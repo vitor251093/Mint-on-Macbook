@@ -11,7 +11,7 @@
 # Note: Edit /etc/systemd/logind.conf so its HandleLidSwitch variable looks like that:
 #   HandleLidSwitch=suspend
 
-if grep -q closed /proc/acpi/button/lid/*/state
+if [[ $(cat /proc/acpi/button/lid/LID0/state) == *closed ]]
 then
         /usr/sbin/pm-suspend
 fi
