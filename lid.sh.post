@@ -1,6 +1,6 @@
 #!/bin/bash
-# Description: That will make Mint suspend when you close your MacBook
 #
+# Description: That will make Mint suspend when you close your MacBook
 # Reference: http://apple.stackexchange.com/questions/48594/can-i-disable-the-lighted-apple-logo-on-the-back-of-my-macbook-pro
 # Reference: http://askubuntu.com/questions/395428/laptop-does-not-suspend-when-lid-is-closed
 #
