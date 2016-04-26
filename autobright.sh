@@ -4,7 +4,8 @@
 # Reference: http://unix.stackexchange.com/questions/110280/bash-script-to-adjust-brightness-when-battery-unplugged
 #
 # Save that file at: /etc/pm/power.d/autobright.sh
-# Remember to use chmod +x to make it runnable
+# Post saving commands:
+# $ chmod +x /etc/pm/power.d/autobright.sh
 
 case $1 in
     # On battery
