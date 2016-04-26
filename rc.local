@@ -11,8 +11,12 @@
 #
 # By default this script does nothing.
 
+# ----- ADDED PART BEGIN -----
+# Description: Restore the last stored brightness value on startup
 # Reference: http://askubuntu.com/questions/151651/brightness-is-reset-to-maximum-on-every-restart
+
 bright=$(cat /sys/class/backlight/nv_backlight/last_brightness)
 echo $bright > /sys/class/backlight/nv_backlight/brightness
+# ------ ADDED PART END ------
 
 exit 0
