@@ -9,3 +9,6 @@ WARNING: Some of the added files might contains extra notes inside. Read them fi
 - lid.sh.post: (New File) Automatically suspends your MacBook when you close it.
 - rc.local: (Edited: /etc/rc.local) Restore the bright level when you turn your MacBook on.
 - saveLastBrightLevel.sh: (New File) Save the bright level when you turn your MacBook off.
+
+TESTED ON:
+- MacBook 13' (late 2009)
